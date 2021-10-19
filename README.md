@@ -4,6 +4,7 @@
 
 **You need to edit CHECK+MINE.bat, check.vbs, CHECK_CARDS.bat, and MINING_CONFIG.txt onces CHECK+MINE.bat creates it**
 
+**If any script asks to install .Net 3.5, this is for the powershell script that actually enumerates the cards on the PCI bus**
 
 **CHECK+MINE.bat**
 Once all configs are done, you will mine with this batch file

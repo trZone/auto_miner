@@ -35,8 +35,8 @@ cscript.exe /NOLOGO check_cpu.vbs
 REM ***** Start EthlargmentPill **************************************
 CD /D "%ethLargementFolder%\ETHlargementPill-r2"
 
-REM > start.vbs ECHO Set objShell = WScript.CreateObject("WScript.Shell")
-REM >>start.vbs ECHO objShell.Run "ETHlargementPill-r2.exe", 2, 0 
+> start.vbs ECHO Set objShell = WScript.CreateObject("WScript.Shell")
+>>start.vbs ECHO objShell.Run "ETHlargementPill-r2.exe", 2, 0 
 wscript start.vbs
 
 setx GPU_FORCE_64BIT_PTR 0

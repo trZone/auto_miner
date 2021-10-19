@@ -2,8 +2,8 @@
 REM Pause
 
 REM !!!!!! SET THESE FOLDERS !!!!!!
-setx miningFolder C:\stuff\AUTOMINE
-setx ethLargementFolder C:\Stuff\ETHlargementPill
+setx miningFolder "C:\stuff\AUTOMINE"
+setx ethLargementFolder "C:\Stuff\ETHlargementPill"
 
 REM ***** MAKE THE AUTO-MINER BATCH FILE ******************************
 

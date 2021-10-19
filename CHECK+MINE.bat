@@ -3,8 +3,7 @@ REM Pause
 
 REM !!!!!! SET THESE FOLDERS. THE PATH TO THE FOLDERS CANNOT HAVE SPACES IN THEM  !!!!!!
 setx miningFolder C:\stuff\AUTOMINE
-setx ethLargementFolder C:\Stuff\ETHlargementPill
-
+setx ethLargementFolder C:\Stuff\ETHlargementPill\ETHlargementPill-r2
 
 REM ***** MAKE THE AUTO-MINER BATCH FILE ******************************
 
@@ -33,10 +32,10 @@ cscript.exe /NOLOGO check_cpu.vbs
 
 
 REM ***** Start EthlargmentPill **************************************
-CD /D "%ethLargementFolder%\ETHlargementPill-r2"
+REM CD /D "%ethLargementFolder%\ETHlargementPill-r2"
 
 > start.vbs ECHO Set objShell = WScript.CreateObject("WScript.Shell")
->>start.vbs ECHO objShell.CurrentDirectory  = chr(34) ^& ethLargementFolder ^& chr(34)
+>>start.vbs ECHO objShell.CurrentDirectory  = "%ethLargementFolder%"
 >>start.vbs ECHO objShell.Run "ETHlargementPill-r2.exe", 2, 0 
 wscript start.vbs
 
@@ -50,11 +49,11 @@ setx GPU_SINGLE_ALLOC_PERCENT 100
 
 REM ***** RUN THE AUTO-MINER BATCH FILE *******************************
 
-CD /D "%miningFolder%\MINE"
+CD /D "C:\stuff\AUTOMINE\MINE"
 
 CALL "AUTO_MINE.bat"
 
-CD /d "%miningFolder%"
+CD /d "C:\stuff\AUTOMINE"
 
 CALL "CHECK+MINE.bat"
 

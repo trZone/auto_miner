@@ -1,7 +1,7 @@
 @ECHO OFF
 REM Pause
 
-REM !!!!!! SET THESE FOLDERS. THE PATH TO THE FOLDERS CANNOT HAVE SPACES IN THEM  !!!!!!
+REM !!!!!! SET THESE FOLDERS. THE PATH TO THE FOLDERS CANNOT HAVE SPACES IN THEM, AND NO QUOTES  !!!!!!
 setx miningFolder C:\stuff\AUTOMINE
 setx ethLargementFolder C:\Stuff\ETHlargementPill\ETHlargementPill-r2
 

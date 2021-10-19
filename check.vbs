@@ -1,7 +1,8 @@
 
 ' !!!!! SET THESE TWO FOLDERS !!!!!
-miningFolder = "C:\stuff\Claymore v15.0"     'folder where claymore EthDcrMiner64.exe is
 scriptDir = "C:\stuff\AUTOMINE"              'folder where this script is
+miningFolder = "C:\stuff\Claymore v15.0"     'folder where claymore EthDcrMiner64.exe is
+
 
 
 Dim gpuConfigsDir, miningConfigFile

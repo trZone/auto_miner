@@ -57,8 +57,9 @@ first, edit check.vbs with some computer settings
 look for this section:
 
 ' !!!!! SET THESE TWO FOLDERS !!!!!
-miningFolder = "C:\stuff\Claymore v15.0"     'folder where claymore EthDcrMiner64.exe is
 scriptDir = "C:\stuff\AUTOMINE"              'folder where this script is
+miningFolder = "C:\stuff\Claymore v15.0"     'folder where claymore EthDcrMiner64.exe is
+
 
 I recommend that scriptDir FOLDER lives in side folder with your other scripts for this, it makes everything easier
 

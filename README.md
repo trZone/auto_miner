@@ -1,6 +1,7 @@
 # auto_miner
 
 **Put all files in the same folder before editing or using them**
+_NOTE: none of the folders can have spaces in their names_
 
 **You need to edit CHECK+MINE.bat, check.vbs, CHECK_CARDS.bat, and MINING_CONFIG.txt onces CHECK+MINE.bat creates it**
 
@@ -12,7 +13,7 @@ Once all configs are done, you will mine with this batch file
 first, edit CHECK+MINE.bat with some computer configs
 
 look for this section:
-REM !!!!!! SET THESE FOLDERS !!!!!!
+REM !!!!!! SET THESE FOLDERS. THE PATH TO THE FOLDERS CANNOT HAVE SPACES IN THEM  !!!!!!
 setx miningFolder "C:\stuff\AUTOMINE"
 setx ethLargementFolder "C:\Stuff\ETHlargementPill"
 

@@ -1,9 +1,10 @@
 @ECHO OFF
 REM Pause
 
-REM !!!!!! SET THESE FOLDERS !!!!!!
-setx miningFolder "C:\stuff\AUTOMINE"
-setx ethLargementFolder "C:\Stuff\ETHlargementPill"
+REM !!!!!! SET THESE FOLDERS. THE PATH TO THE FOLDERS CANNOT HAVE SPACES IN THEM  !!!!!!
+setx miningFolder C:\stuff\AUTOMINE
+setx ethLargementFolder C:\Stuff\ETHlargementPill
+
 
 REM ***** MAKE THE AUTO-MINER BATCH FILE ******************************
 

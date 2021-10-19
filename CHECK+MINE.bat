@@ -48,11 +48,11 @@ setx GPU_SINGLE_ALLOC_PERCENT 100
 
 REM ***** RUN THE AUTO-MINER BATCH FILE *******************************
 
-CD /D "C:\stuff\AUTOMINE\MINE"
+CD /D "%miningFolder%\MINE"
 
 CALL "AUTO_MINE.bat"
 
-CD /d "C:\stuff\AUTOMINE"
+CD /d "%miningFolder%"
 
 CALL "CHECK+MINE.bat"
 

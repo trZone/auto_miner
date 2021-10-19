@@ -36,6 +36,7 @@ REM ***** Start EthlargmentPill **************************************
 CD /D "%ethLargementFolder%\ETHlargementPill-r2"
 
 > start.vbs ECHO Set objShell = WScript.CreateObject("WScript.Shell")
+>>start.vbs ECHO objShell.CurrentDirectory  = chr(34) ^& ethLargementFolder ^& chr(34)
 >>start.vbs ECHO objShell.Run "ETHlargementPill-r2.exe", 2, 0 
 wscript start.vbs
 

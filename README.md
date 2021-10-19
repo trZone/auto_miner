@@ -13,8 +13,8 @@ first, edit CHECK+MINE.bat with some computer configs
 
 look for this section:
 REM !!!!!! SET THESE FOLDERS !!!!!!
-setx miningFolder C:\stuff\AUTOMINE
-setx ethLargementFolder C:\Stuff\ETHlargementPill
+setx miningFolder "C:\stuff\AUTOMINE"
+setx ethLargementFolder "C:\Stuff\ETHlargementPill"
 
 This example has everything in folder C:\Stuff but you can put it anywhere, as long as you know the actual path.
 Do not use USB or network path
